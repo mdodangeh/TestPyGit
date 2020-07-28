@@ -5,9 +5,9 @@ import requests
 import os
 import math
 
-print("Hello")
-print(sys.version)
-r = requests.get("https://coreyms.com")
+# print("Hello")
+# print(sys.version)
+# r = requests.get("https://coreyms.com")
 print(r.status_code)
 
 # name = input(" Input your name! ")
