@@ -7,8 +7,9 @@ import math
 
 # print("Hello")
 # print(sys.version)
-# r = requests.get("https://coreyms.com")
+r = requests.get("https://coreyms.com")
 print(r.status_code)
+print(r.ok)
 
 # name = input(" Input your name! ")
 # print("Hello ", name)
